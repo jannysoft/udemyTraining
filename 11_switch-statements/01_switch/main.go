@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+func main() {
+	switch "Medhi" {
+	case "Daniel":
+		fmt.Println("Whats up Daniel")
+	case "Medhi":
+		fmt.Println("Whats up Medhi")
+	case "Jenny":
+		fmt.Println("Hello there Jenny")
+	default:
+		fmt.Println("Have you no friendss?")
+	}
+}
+
+/*
+
+	no default fallthrough
+	fallthrough is optional
+	-- you can specify fallthrough by explicitly stating it
+	-- break isn`t needed like in other languages
+
+*/
